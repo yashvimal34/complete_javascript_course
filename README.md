@@ -61,10 +61,6 @@ complete_javascript_course/
 
 Feel free to fork this repository and contribute improvements or corrections!
 
-## 📝 License
-
-This project is open source and available under the MIT License.
-
 ## 📧 Contact
 
 For questions or suggestions, feel free to reach out!
