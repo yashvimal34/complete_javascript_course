@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="card.css">
+    <title>Royal Blackjack Casino</title>
+</head>
+<body>
+    <div class="casino-container">
+        <header class="game-header">
+            <h1>Royal Blackjack Casino</h1>
+            <div class="dealer-section">
+                <div class="dealer-avatar">🃏</div>
+                <p class="dealer-message">Welcome to the Royal Table!</p>
+            </div>
+        </header>
+
+        <div class="game-area">
+            <div class="player-info" id="player-el"></div>
+
+            <div class="game-table">
+                <div class="cards-section">
+                    <div class="card-display" id="cards-el">Cards: </div>
+                    <div class="sum-display" id="sum-el">Sum: </div>
+                </div>
+
+                <div class="message-section">
+                    <p id="message-el" class="game-message">Want to play a round?</p>
+                </div>
+
+                <div class="controls">
+                    <button id="start-btn" onclick="startGame()" class="btn btn-primary">🎰 Start Game</button>
+                    <button id="new-btn" onclick="newCard()" class="btn btn-secondary">🃏 New Card</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="card.js"></script>
+</body>
+</html>

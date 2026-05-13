@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Lead Tracker</h1>
+        </header>
+        <div class="input-section">
+            <div class="input-group">
+                <input type="text" id="input-el" placeholder="Enter lead URL or note..." />
+                <button id="input-btn" class="btn btn-primary">➕ Add Lead</button>
+            </div>
+            <button id="save-btn" class="btn btn-secondary">📑 Save Current Tab</button>
+        </div>
+        <div class="actions">
+            <button id="delete-btn" class="btn btn-danger">🗑️ Delete All</button>
+        </div>
+        <ul id="ul-el" class="leads-list">
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

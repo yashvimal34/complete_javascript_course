@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowdMaster Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header-section">
+            <div class="logo">
+                <div class="logo-icon">👥</div>
+                <h1>CrowdMaster Pro</h1>
+            </div>
+            <p class="tagline">Professional Attendance Tracking</p>
+        </div>
+
+        <div class="main-counter">
+            <div class="counter-display">
+                <div class="counter-circle">
+                    <span id="count-el" class="count-number">0</span>
+                    <div class="counter-label">People Count</div>
+                </div>
+            </div>
+
+            <div class="control-buttons">
+                <button id="decrement-btn" onclick="decrement()" class="btn btn-decrement">
+                    <span class="btn-icon">➖</span>
+                    <span class="btn-text">Remove</span>
+                </button>
+
+                <button id="increment-btn" onclick="increment()" class="btn btn-increment">
+                    <span class="btn-icon">➕</span>
+                    <span class="btn-text">Add</span>
+                </button>
+            </div>
+
+            <button id="save-btn" onclick="save()" class="btn btn-save">
+                <span class="btn-icon">💾</span>
+                <span class="btn-text">Save Count</span>
+            </button>
+        </div>
+
+        <div class="history-section">
+            <h3>Attendance History</h3>
+            <div id="save-el" class="history-display">People Enteries</div>
+        </div>
+    </div>
+
+    <script src="count.js"></script>
+</body>
+</html>

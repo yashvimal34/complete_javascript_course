@@ -1,0 +1,17 @@
+1. What is command Line ? 
+A1. A user interface - also called "command line interface" or CLI - that allows us to utilise the functions of our operating system.
+A2. Works by means typing commands instead of by clicking icons as we do in a GUI.
+
+
+2. What is the purpose of commaind line? Why we use?
+A1. File Management
+A2. Control development environment.
+A3. Automate repitive tasks.
+
+3. What we learn from command line?
+A1. The file tree
+A2. Create & Delete
+A3. Write & Read
+A4. Copy, move & rename
+A5. Search and replace
+A6. Count & organise

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecurePass Pro - Advanced Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+
+    <div class="container">
+        <div class="header">
+            <h1>SecurePass Pro</h1>
+            <p>Generate ultra-secure passwords with military-grade encryption strength</p>
+        </div>
+
+        <div class="password-display">
+            <div class="password-box">
+                <span id="pass1">Click generate to create password</span>
+            </div>
+            <div class="password-box">
+                <span id="pass2">Click generate to create password</span>
+            </div>
+        </div>
+
+        <button class="generate-btn" id="generate-pass" onclick="generatePassword()">
+            ⚡ Generate Secure Passwords
+        </button>
+
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-number">15</span>
+                <span class="stat-label">Characters</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">94</span>
+                <span class="stat-label">Possible Chars</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">Combinations</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🔒 Your security is our priority • Advanced cryptography • Zero data storage</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

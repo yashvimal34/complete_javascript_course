@@ -1,0 +1,5 @@
+const snapshot = new Date()
+console.log(snapshot)
+console.log(snapshot.toString())
+console.log(snapshot.getFullYear().toString())
+console.log(snapshot.getUTCHours().toString())

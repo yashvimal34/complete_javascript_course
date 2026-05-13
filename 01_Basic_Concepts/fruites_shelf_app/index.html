@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Shelf Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fruit-app">
+        <header class="hero-panel">
+            <div class="hero-badge">🍎🍊🥭🍇</div>
+            <h1>Fruit Shelf Studio</h1>
+            <p class="hero-copy">Arrange your fruit harvest into beautiful shelves. All fruits are shown first, then sorted into their proper space.</p>
+        </header>
+
+        <section class="basket-panel">
+            <div class="panel-heading">
+                <span class="heading-icon">🧺</span>
+                <h2>All Fruits in the Basket</h2>
+            </div>
+            <div id="all_fruits" class="fruit-strip"></div>
+        </section>
+
+        <div class="action-row">
+            <button id="btn" onclick="fruitShelf()" class="sort-button">Sort Fruits Into Shelves</button>
+        </div>
+
+        <section class="shelves-grid">
+            <article class="shelf shelf-apple">
+                <div class="shelf-label">Apple Shelf</div>
+                <div class="shelf-content" id="apple_shelf"></div>
+            </article>
+            <article class="shelf shelf-orange">
+                <div class="shelf-label">Orange Shelf</div>
+                <div class="shelf-content" id="orange_shelf"></div>
+            </article>
+            <article class="shelf shelf-mango">
+                <div class="shelf-label">Mango Shelf</div>
+                <div class="shelf-content" id="mango_shelf"></div>
+            </article>
+            <article class="shelf shelf-grapes">
+                <div class="shelf-label">Grapes Shelf</div>
+                <div class="shelf-content" id="grapes_shelf"></div>
+            </article>
+        </section>
+
+        <div id="no-fruits" class="message-box"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
