@@ -28,6 +28,6 @@ try {
     console.log(err)
 }
 
-// Now in this challenge we have learned how try catch block works.
+// Now in this challenge we have learned how try catch block works with handling errors.
 // If you break the BASE URL the automatically moves to catch block.
-// If you break the Endpoint of BASE URL the error will move to if block.
+// If you break the Endpoint of BASE URL the error will move to if block and if block is accessed to catch block without catch block the error will not show.
